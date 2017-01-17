@@ -662,3 +662,4 @@ static void rx_handler_command(struct usb_ep *ep, struct usb_request *req)
 		usb_ep_queue(ep, req, 0);
 	}
 }
+

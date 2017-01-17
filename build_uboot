@@ -1,0 +1,11 @@
+export CROSS_COMPILE=/home/jetson/pure/jetsontx1/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+export ARCH=arm64
+make distclean
+make p2371-2180_defconfig
+make
+
+export ARCH=arm64
+export CROSS_COMPILE=/usr/bin/aarch64-linux-gnu-
+make distclean
+make p2371-2180_defconfig
+make
